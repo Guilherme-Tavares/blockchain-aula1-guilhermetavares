@@ -1,9 +1,8 @@
 # ShipBlock
 
 Registro de entregas à prova de adulteração, construído como uma blockchain simples em JavaScript (Node.js).
-Atividade **A4 – Blocos reutilizáveis em JavaScript** da disciplina Tópicos Especiais em Tecnologia II (IFRO).
 
-O projeto aplica as três ideias vistas em sala:
+## Como funciona
 
 1. **Hash que identifica cada bloco**: SHA-256 de `indice + dados + hashAnterior`.
 2. **Encadeamento pelo hash anterior**: cada bloco guarda o hash do bloco que vem antes.
