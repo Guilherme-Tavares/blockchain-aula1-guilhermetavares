@@ -1,0 +1,13 @@
+{
+  "name": "ship-block",
+  "version": "1.0.0",
+  "description": "ShipBlock - registro de entregas à prova de adulteração usando blockchain em JavaScript",
+  "main": "principal.js",
+  "scripts": {
+    "start": "node principal.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
